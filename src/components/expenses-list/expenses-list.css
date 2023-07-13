@@ -1,0 +1,41 @@
+.expenses-list {
+  padding: 16px;
+}
+
+.expenses-list h2 {
+  margin: 0;
+  color: var(--primary-text-color);
+}
+
+.list-title {
+  color: var(--primary-text-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.expenses-list-container {
+  padding: 8px;
+  border: 2px solid var(--input-border-color);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.expense-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.button-container button{
+  font-family: 'Josefin Sans';
+  padding: 5px 10px;
+  border: 2px solid var(--button-border);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.button-container button:not(:disabled):hover {
+  background-color: var(--input-bg);
+}

@@ -1,0 +1,7 @@
+.expenses-chart {
+  padding: 8px;
+  border: 2px solid var(--input-border-color);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #c1c1c1d1;
+}

@@ -1,0 +1,47 @@
+.expenses-list-item {
+  padding: 8px;
+  border: 2px solid #7171ff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.left-container {
+  color: var(--primary-text-color);
+}
+
+.left-container h3 {
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.left-container span{
+  font-size: 12px
+}
+
+.category-container {
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.category-container span {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #4848df;
+}
+
+.desc-container{
+  flex: 1 0 100%;
+  margin: 0px;
+  color: var(--primary-text-color);
+  text-transform: capitalize;
+  font-size: 14px;
+}

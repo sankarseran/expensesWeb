@@ -1,0 +1,44 @@
+/*
+  Global App CSS
+  ----------------------
+  Use this file for styles that should be applied to all components.
+  For example, "font-family" within the "body" selector is a CSS property
+  most apps will want applied to all components.
+
+  Any global CSS variables should also be applied here.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+
+
+:root {
+  --primary-text-color: #31316d;
+  --primary-bg: #eeeeee;
+  --input-bg: #7171ff63;
+  --input-border-color: #31316d;
+  --button-border: #31316d;
+  --button-txt-color: #fff;
+  --button-txt-hover-color: #31316d
+}
+
+[data-theme="dark"] {
+  --primary-text-color: #ffffff;
+  --primary-bg: #161625;
+  --input-bg: #dcdcff;
+  --input-border-color: #31316d;
+  --button-border: #fff;
+  --button-txt-color: #31316d
+  --button-txt-hover-color: #31316d
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Josefin Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background-color: var(--primary-bg);
+}
+
+input,
+button {
+  font-family: 'Josefin Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}

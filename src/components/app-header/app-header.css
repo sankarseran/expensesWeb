@@ -1,0 +1,10 @@
+.app-header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header h2 {
+  margin: 0;
+  color: var(--primary-text-color);
+}
