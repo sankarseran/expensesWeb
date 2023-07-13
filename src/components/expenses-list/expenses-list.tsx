@@ -110,7 +110,7 @@ export class ExpensesList implements ComponentInterface {
                   <button disabled={this.disabled} onClick={() => this.deleteItem(expense)}>Delete</button>
                 </div>
               </expenses-list-item>;
-            }): "No Expense Available !!"}
+            }): <span class="no-data">No Expense Available !!</span>}
           </div>
         </div>
       </div>

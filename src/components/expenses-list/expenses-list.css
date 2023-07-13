@@ -7,6 +7,10 @@
   color: var(--primary-text-color);
 }
 
+.no-data {
+  color: var(--primary-text-color);
+}
+
 .list-title {
   color: var(--primary-text-color);
   display: flex;
